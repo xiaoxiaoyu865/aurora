@@ -1,0 +1,2 @@
+# aurora
+personal_blog
