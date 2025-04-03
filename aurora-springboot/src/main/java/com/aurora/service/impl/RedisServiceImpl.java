@@ -70,7 +70,7 @@ public class RedisServiceImpl implements RedisService {
     }
 
     @Override
-    public Long incr(String key, long da) {
+    public Long incr(String key, long delta) {
         return redisTemplate.opsForValue().increment(key, delta);
     }
 
